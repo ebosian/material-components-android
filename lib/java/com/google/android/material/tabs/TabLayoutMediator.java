@@ -53,7 +53,7 @@ public final class TabLayoutMediator {
   private boolean attached;
 
   @Nullable private TabLayoutOnPageChangeCallback onPageChangeCallback;
-  @Nullable private TabLayout.OnTabSelectedListener onTabSelectedListener;
+  @Nullable public TabLayout.OnTabSelectedListener onTabSelectedListener;
   @Nullable private RecyclerView.AdapterDataObserver pagerAdapterObserver;
 
   /**
